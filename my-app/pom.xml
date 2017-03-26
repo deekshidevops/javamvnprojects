@@ -40,7 +40,6 @@
 				<maven.compiler.target>1.8</maven.compiler.target>
 				<maven.compiler.source>1.8</maven.compiler.source>
 				<defaultSuiteFile>src/test/resources/testng.xml</defaultSuiteFile>
-				<suiteFile>${defaultSuiteFile}</suiteFile>
 			</properties>
 
 			<build>
@@ -51,7 +50,7 @@
 						<version>2.18</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>${suiteFile}</suiteXmlFile>
+								<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
