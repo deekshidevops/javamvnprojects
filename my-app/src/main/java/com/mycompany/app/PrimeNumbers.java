@@ -2,7 +2,7 @@ package com.mycompany.app;
 
 public class PrimeNumbers {
 	
-	 public static boolean isPrime(int n) {
+	 public boolean isPrime(int n) {
 	       if (n <= 1) {
 	           return false;
 	       }
