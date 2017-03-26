@@ -5,8 +5,7 @@
 		<classes>
 				<class	name="com.mycompany.app.AppTest" />
 				<class	name="com.mycompany.app.TestFactorial" />
-				<class	name="com.mycompany.app.TestPrimenumbers" />
-				
+				<class	name="com.mycompany.app.TestPrimeNumbers" />
 		</classes>
 	</test>
 </suite>

@@ -9,6 +9,5 @@ public class TestPrimeNumbers {
   public void testPrimeNumber() {
 	  PrimeNumbers pn = new PrimeNumbers();
 	  Assert.assertTrue(pn.isPrime(5));
-	  Assert.assertFalse(pn.isPrime(4));
   }
 }
